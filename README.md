@@ -11,8 +11,6 @@ This project transforms a Raspberry Pi into an edge computing device and gateway
 sudo apt update && sudo apt upgrade -y
 ```
 
-![image.png](attachment:36cce6b1-62d0-4bf3-ae2a-9db11a7e8858:image.png)
-
 **Install Dependencies**
 
 Dependencies for Docker refer to the software packages, libraries, or tools that are required for Docker to function correctly on a specific system or platform. These dependencies ensure that Docker can run containers, manage network configurations, and interact with the underlying operating system.
@@ -91,4 +89,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 ```
 
 **Check if Docker is Running**
+```
 sudo systemctl status docker
+```
